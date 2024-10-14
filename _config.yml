@@ -27,7 +27,9 @@ url: "http://Rimoo07.github.io" # the base hostname & protocol for your site, e.
 github_username:  Rimoo07
 
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Exclude from processing.
 # The following items will not be processed, by default.
